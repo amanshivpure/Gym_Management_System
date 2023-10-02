@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>StayFit</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+        background-color: black;     
+}
+.login{text-align:right;
+margin-top: -60px;
+padding-right:40px;
+padding-bottom: 20px;
+text-decoration: none;
+}
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-color: #000;
+}
+.wrapper>div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: animate 25s infinite;
+	opacity: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+        
+}
+.wrapper>div:nth-child(2) {
+	animation-delay: 5s;
+}
+.wrapper>div:nth-child(3) {
+	animation-delay: 10s;
+}
+.wrapper>div:nth-child(4) {
+	animation-delay: 15s;
+}
+.wrapper>div:nth-child(5) {
+	animation-delay: 20s;
+}
+@keyframes animate {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	40% {
+		transform: scale(1.2);
+	}
+}
+
+.button{
+   background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  border: 0;
+  border-radius: 12px;
+  color:#000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  
+}
+
+
+    </style>
+    </head>
+    <body> 
+        <img style="margin-left: 25px" src="logo.png" width="200" height="80">
+       
+        <div class="login">
+             
+            <a style="margin-right: 25px; text-decoration:none;" href="Login.html">
+            <input class="button" type="button" value="LOGIN">
+       </a>
+     <a style=" text-decoration:none;" href="register.html"><input class="button" type="button" value="SIGNUP"></a>
+        </div>
+       
+       <div class="wrapper">
+           
+		<div style="background-image:url(2.jpg)"></div>
+      <div style="background-image:url(1.jpg)"></div>
+      <div style="background-image:url(6.jpg)"></div>
+      <div style="background-image:url(5.jpg)"></div>
+      <div style="background-image:url(3.jpg)"></div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+/* contact section styling */
+section{
+    padding: 80px 0;
+    
+}
+ .columnn{
+     margin-left: 25.9%;
+    width: calc(50% - 30px);
+}
+.cont{
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .text{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+}
+ .left p{
+    text-align: justify;
+}
+  .icons{
+    margin: 10px 0;
+}
+ .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+ .inf{
+    margin-left: 30px;
+}
+ .row i{
+    font-size: 25px;
+    color: crimson;
+}
+ .head{
+    font-weight: 500;
+}
+ .inf .sub-title{
+    color: #333;
+}
+ .right form .fields{
+    display: flex;
+}
+ .right form .field,
+ .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+ .textarea{
+    height: 80px;
+    width: 50%;
+}
+ .name{
+    margin-right: 55px;
+}
+ .field input,
+ .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+ .button-area button{
+  color:#b3b3b3;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background:#fff;
+  border: 2px solid;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
+.button-area button:hover{
+  color:#80ff72;
+  border-color:#80ff72;
+  background: none;
+}
+
+.msg{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.gal{
+    display: grid;
+  grid-template-columns: repeat(3, 3fr);
+    
+}
+
+ .right form .fields{
+    display: flex;
+}
+ .right form .fieldd,
+ .right form .fields .fieldd{
+    height: 300px;
+    
+    margin-bottom: 15px;
+}
+ .fieldd input,
+ .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .fieldd input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.wfield .fieldd{
+    height: 50px;
+    width: 90%;
+}
+.hfield .fieldd{
+     height: 50px;
+    width: 90%;
+}
+.social{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}

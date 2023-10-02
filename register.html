@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>StayFit</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url("7.jpg");
+                background-size:cover;
+                margin-right:50%; 
+                 font-family: sans-serif;
+            }
+            
+            form{border: solid;
+                 background-color: white;
+                 border-width: 2px;
+                border-radius: 20px 20px 20px 20px;
+                 width: 60%;
+               
+               
+                 }
+            .container{
+    padding: 30px;
+            }
+          
+                .box{
+    border-top:100px;
+    border-left:100px;
+    border-right: 100px;
+    border-color: white;
+    border-bottom-color:#000;
+    border-radius: 4px 4px 4px 4px;
+    background:white;
+    padding:8px;
+    width: 200px;
+} 
+            
+            .button{
+      background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+  border: 0;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+} 
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.radio{
+    display: inline;
+    font-family: sans-serif; 
+
+    padding-left: 10px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    
+}
+            
+        </style>
+    </head>
+    <body>
+        <div class="image">
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        
+        <form action="/Gym/SavedData" method="post">
+           
+            <div class="container">
+                <div class="image">
+                   <h2> SIGNUP</h2>          
+                           
+            <input class="box" type="text" placeholder="ID" name="c_id"/><br><br/>
+          
+            <input class="box" type="text" placeholder="FIRST_NAME" name="fname"/><br><br/>
+          
+            <input class="box" type="text" placeholder="LAST_NAME" name="lname"/><br><br/>
+         
+            <input class="box" type="text" placeholder="EMAIL"  name="email"/><br><br/> 
+         
+
+ <div class="radio">
+  <input type="radio" name="gender" value="male" />
+  MALE
+</div>
+
+<div class="radio">
+  <input type="radio" name="gender" value="female"/>
+  FEMALE
+</div>
+            <input class="box" type="password" placeholder="PASSWORD"  name="pass"/><br><br/>
+           
+            <input class="box" type="password" placeholder="CONFORM" name="cpass"/><br><br/>    
+            
+            <input class="button" type="submit" value="SIGNUP" />
+                  
+            <p> if you registred ?</p>
+            <a href="Login.html" style="text-decoration:none;">LOGIN</a>
+           
+ 
+</div>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
